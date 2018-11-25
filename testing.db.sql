@@ -1,0 +1,1 @@
+create table:(id integer, name TEXT, breed TEXT);
