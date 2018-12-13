@@ -27,8 +27,8 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="4a4714a0-d353-4b5a-91bd-48469ffa7ca5">
-      <console name="Connection" type="STANDARD"><![CDATA[show tables;]]></console>
-      <console name="Connection 12" type="STANDARD"><![CDATA[db = pymysql.connect("localhost","root", "root", "python_class")
+      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[show tables;]]></console>
+      <console name="Connection 12" type="STANDARD" schema="" session="Main"><![CDATA[db = pymysql.connect("localhost","root", "root", "python_class")
 # prepare cursor object using cursor()method
 cursor = db.cursor()
 # prep SQL query to INSERT a record into the database
@@ -46,7 +46,7 @@ except:
 db.close()]]></console>
     </connection>
     <connection id="fa440697-1153-4671-be18-118b30beb994">
-      <console name="Connection 1" type="STANDARD" />
+      <console name="Connection 1" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
@@ -117,6 +117,12 @@ db.close()]]></console>
           <key-file value="" />
           <key-passphrase value="" />
         </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
         <details>
           <charset value="UTF-8" />
           <session-management value="true" />
@@ -195,6 +201,12 @@ db.close()]]></console>
           <key-file value="" />
           <key-passphrase value="" />
         </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
         <details>
           <charset value="UTF-8" />
           <session-management value="true" />
