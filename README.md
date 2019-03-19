@@ -1,16 +1,11 @@
-# Inventory store demo that runs in Python console.
+# Console based Inventory store demo.
 
 # How it works:
-An inventory database containing a five items was created.
+An inventory database containing five items.
 
-User can view items available in inventory, order based on the stock available in inventory and add them to a list for purchase.
+User can view items, check availability for purchase and and order based on the stock available in inventory 
 
-Price of quantity ordered is calculated for the user.
+Price of quantity ordered is then calculated.
 
-# Notes:
-PyCharm used for development.
 
-kufco.py contains the source code.
-
-python_class is the database written in MySQL.
 
